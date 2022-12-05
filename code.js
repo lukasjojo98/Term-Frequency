@@ -12,7 +12,7 @@ document.addEventListener("DOMContentLoaded", event =>{
         let newItem = document.createElement("div");
         newItem.className = "word";
         let pElement = document.createElement("p");
-        pElement.innerHTML = jsonData[i][0]; 
+        pElement.innerHTML = jsonData[i][0] + "("+ jsonData[i][1] +")"; 
         newItem.append(pElement);
         document.querySelector("body").append(newItem);
     }
