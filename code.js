@@ -3,7 +3,7 @@ request.open("GET","frequency.json", false);
 request.send(null);
 let jsonData = JSON.parse(request.responseText);
 
-request.open("GET","results2.json", false);
+request.open("GET","results-3.json", false);
 request.send(null);
 let resultJson = JSON.parse(request.responseText);
 
